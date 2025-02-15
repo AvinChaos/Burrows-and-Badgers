@@ -1,0 +1,1793 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="7f68-4275-2be8-34e5" name="Default Warband" gameSystemId="sys-5421-845f-7905-367c" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Mouse" hidden="false" id="2dbc-76b1-549e-5d1e">
+      <profiles>
+        <profile name="Mouse" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="91fa-cbb7-ab1f-65c4">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d6</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d4</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d6</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d6</characteristic>
+            <characteristic typeId="1446-6436-7bb6-270e" name="Skills"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pennies" typeId="dcf3-a503-8ad0-b2d5" value="24"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="52ea-6bac-fa7b-a013" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="e419-ea80-a95a-971c" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="565f-14e4-d329-b225"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="e0e5-b512-68ec-1357" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="755c-5322-79de-e0d5"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="ae2f-6aa6-803a-a6fb" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="94b1-d38b-2bfc-2637" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Shrew" hidden="false" id="b42e-a86b-a88e-3aa5">
+      <profiles>
+        <profile name="Shrew" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="cf17-022c-2e2a-5429">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d6</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d8</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d6</characteristic>
+            <characteristic typeId="1446-6436-7bb6-270e" name="Skills"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pennies" typeId="dcf3-a503-8ad0-b2d5" value="28"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="5fc1-1c07-555e-8bed" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="b067-7248-7c12-92df" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="ec84-c95e-3790-2d21"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="a738-86b9-f54f-d7d3" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b95d-dff8-c71a-9a57"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="f76f-7861-cd52-c3c3" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="7a55-d938-06cd-6fd3" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Bird (Small)" hidden="false" id="9fe0-86b3-181f-7b40">
+      <profiles>
+        <profile name="Bird (Small)" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="4bc4-3da1-7127-ab01">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d6</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d4</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d4</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Flight</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pennies" typeId="dcf3-a503-8ad0-b2d5" value="26"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="e192-dcf3-1010-1618" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="b275-f06a-c373-1eb9" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="843c-fa13-3c28-3e2d"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="732e-4f7c-2cbd-c395" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6318-5b35-9009-706b"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="7cb5-3683-5217-f10d" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="3d47-3eea-8393-c8d6" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Bat" hidden="false" id="5f5e-9ea2-4d4a-940f">
+      <profiles>
+        <profile name="Bat" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="d705-e25f-8bd9-ad41">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d4</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d6</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d4</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d4</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d6</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d6</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Flight, Unarmed Fighter, Delicate (-2), Gifted, Natural Hunter</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pennies" typeId="dcf3-a503-8ad0-b2d5" value="27"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="3aeb-daeb-5c14-f3aa" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="4596-b8ca-b708-1820" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="2aa4-d3b2-a3bf-b7f5"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="0749-7064-6f71-52d6" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e7e1-e1b1-421d-d709"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="a010-9a02-3609-0b47" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="f992-2901-3864-bdd7" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hedgehog" hidden="false" id="7646-6798-1a80-68ba">
+      <profiles>
+        <profile name="Hedgehog" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="f8e6-58e5-2e23-016d">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d6</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d6</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d8</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Spines</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pennies" typeId="dcf3-a503-8ad0-b2d5" value="29"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="63bb-fc24-22a1-1362" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="4f56-4a58-e452-5e72" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="3b5e-9fec-ccd2-e5e5"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="0ce9-f31a-a7c5-ca38" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a660-ee06-2031-3b12"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="dab3-6aa9-72ae-6f94" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="2c47-620b-6c21-f77b" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Squirrel" hidden="false" id="e461-02bb-dfa8-8e52">
+      <profiles>
+        <profile name="Squirrel" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="5f7d-a171-4fb0-346e">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d6</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d8</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d8</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d8</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d8</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d6</characteristic>
+            <characteristic typeId="1446-6436-7bb6-270e" name="Skills"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pennies" typeId="dcf3-a503-8ad0-b2d5" value="34"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="dc7a-bacf-0966-dbcd" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="651b-96d3-ab24-fcd5" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="205c-7644-b77d-dd5f"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="35c1-7bec-7c8a-cd89" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d24c-d477-ee1a-1b18"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="3cca-4c87-6369-45ab" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="fc8d-4d33-8c76-dea4" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Mole" hidden="false" id="d522-6d20-2941-c481">
+      <profiles>
+        <profile name="Mole" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="333e-082c-7b9c-c173">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d4</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d6</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d4</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d4</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d8</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d6</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Strong (1), Tunneller, Short Sighted</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pennies" typeId="dcf3-a503-8ad0-b2d5" value="30"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="9542-6a53-d546-58ca" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="a71b-8110-5c1a-b2f6" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="b048-84ae-fd2d-d206"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="a503-318d-74ca-99c3" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4db-2778-543c-f02e"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="a6d6-7481-a2e8-2f71" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="ea1f-11b0-29c5-b3b9" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Weasel/Stoat" hidden="false" id="a2df-de50-0330-9d6e">
+      <profiles>
+        <profile name="Weasel/Stoat" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="7243-71d5-68e4-7aae">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d8</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d8</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d8</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d6</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d6</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Fearless</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pennies" typeId="dcf3-a503-8ad0-b2d5" value="36"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="d4cb-980e-558e-3e65" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="ab8a-3c82-74bd-4c6a" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="18cb-ffca-d562-cd53"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="b96f-ca44-0446-f97f" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="de53-d3e6-04f1-0d30"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="3ee4-2080-7b20-4698" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="f87e-d5db-2d4a-71d5" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Cat" hidden="false" id="7c6c-7af8-ae75-cd8f">
+      <profiles>
+        <profile name="Cat" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="3cdf-8aa5-ff54-d5a2">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d8</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d8</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d6</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d8</characteristic>
+            <characteristic typeId="1446-6436-7bb6-270e" name="Skills"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pennies" typeId="dcf3-a503-8ad0-b2d5" value="35"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="08b3-9b8a-ddb5-2e2b" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="b008-ab79-d6b0-c575" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="69f3-63c1-a0fb-45fa"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="55a3-52c5-01a2-9b6d" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5acb-e52a-f5e9-a3d9"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="b7f5-bebc-3088-c7e9" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="d7f7-ac34-25d0-d1f9" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Black Rat" hidden="false" id="626a-22f6-e8c7-918e">
+      <costs>
+        <cost name="Pennies" typeId="dcf3-a503-8ad0-b2d5" value="33"/>
+      </costs>
+      <profiles>
+        <profile name="Black Rat" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="dab5-7023-1046-5a04">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d8</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d8</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d6</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d6</characteristic>
+            <characteristic typeId="1446-6436-7bb6-270e" name="Skills"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="a1a9-b084-7e2f-6393" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="b621-2dcf-594a-1abb" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="f6c3-5ea9-fbbe-c716"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="2c2f-abb7-8ca5-0331" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cf04-1903-fa33-7199"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="4f87-1540-00ae-3358" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="7020-534e-c998-6483" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Ferret" hidden="false" id="7250-b9b4-666d-a1e7">
+      <costs>
+        <cost name="Pennies" typeId="dcf3-a503-8ad0-b2d5" value="42"/>
+      </costs>
+      <profiles>
+        <profile name="Ferret" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="5877-e0d1-02d3-a82d">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d8</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d8</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d8</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d8</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d8</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d8</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Fearless</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="259e-b5b1-cc8f-753d" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="42ff-8886-0b20-f101" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="8919-16b2-1145-7a8b"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="f14d-47bb-a5d9-61f9" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b86-41e4-5841-5b9b"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="c085-f995-0e80-ca6a" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="51c3-4e9d-90e3-3750" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Rabbit" hidden="false" id="ab25-ac4b-bf83-ae1e">
+      <costs>
+        <cost name="Pennies" typeId="dcf3-a503-8ad0-b2d5" value="31"/>
+      </costs>
+      <profiles>
+        <profile name="Rabbit" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="86ed-e546-aed4-1fa5">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d8</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d6</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d6</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d6</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Leap</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="1d7c-e1d3-701d-82a2" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="5691-7a52-90e3-959c" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="71c2-51d8-47c1-dfab"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="e5e5-c472-b47b-58fb" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="651a-7ce2-3e8c-50cd"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="7bfd-e342-4350-4ff0" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="fa52-304b-8a60-3a17" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Toad" hidden="false" id="a70d-42d8-db60-6078">
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="52"/>
+      </costs>
+      <profiles>
+        <profile name="Toad" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="c75e-ab66-773e-3b72">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d6</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d4</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d10</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d8</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d8</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Strong (1), Tough (2), Natural Hunter</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="7e72-0edb-bf37-99a1" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="413c-284a-6536-539e" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="a72c-38d0-5130-287e"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="c120-5cab-bf6d-a7c2" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="98c5-b75f-b7d0-3bf0"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="2cff-b997-3315-b675" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="bc27-4040-8523-80ed" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Frog" hidden="false" id="34e0-3e55-f91d-e99f">
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="26"/>
+      </costs>
+      <profiles>
+        <profile name="Frog" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="c087-d426-5a65-fb36">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d6</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d6</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d6</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Leap</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="40c0-3b95-18b3-f953" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="ec40-a9de-d981-e42c" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="ffc6-c699-17ae-f3f1"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="9768-e815-858c-8a64" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="260c-60e1-ceb5-ed1e"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="bf4c-2298-e658-01d4" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="6670-5a23-5ffb-a991" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Adder" hidden="false" id="89f2-b856-1b5b-aa09">
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="36"/>
+      </costs>
+      <profiles>
+        <profile name="Adder" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="5f7a-b0b7-ed6d-aa3f">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d8</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d4</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d4</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d4</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d8</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d8</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d8</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d8</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Poison (Pain), Unarmed Fighter, can&apos;t use weapons.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="2c34-91b6-f4ab-8967" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="c13d-5356-315d-6638" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="7041-9d5b-c32a-da19"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="d6a2-a25c-f3ed-858b" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dca5-771e-4aaa-f1d4"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="bcce-c847-0d59-1582" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="46bc-b1d5-740e-b901" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Bird (medium)" hidden="false" id="d974-4f0a-55be-8eba">
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="30"/>
+      </costs>
+      <profiles>
+        <profile name="Bird (medium)" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="e80a-5d86-63d3-dd73">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d6</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d8</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d6</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d6</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Flight</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="cda7-4f10-4fd7-2c6b" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="d88f-d134-bd11-0663" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="c843-dfef-a89f-f6b3"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="1702-1c00-b720-7189" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e9e3-06da-0272-1b6b"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="3af5-97ec-fc41-5dea" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="5027-3517-7300-af51" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Raptor (medium)" hidden="false" id="a05d-d7df-95a4-24ba">
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="42"/>
+      </costs>
+      <profiles>
+        <profile name="Raptor (medium)" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="a962-e7f4-91a8-9aec">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d8</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d4</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d8</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d8</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d6</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d6</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Flight, Unarmed Fighter, Strong (1), Natural Hunter</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="cc12-dc8b-169b-dc80" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="d909-d16c-1371-bb5f" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="0950-6e5a-72e8-fbe3"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="855c-d3a7-6d1a-ddaf" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96f2-51e4-8665-8706"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="f6f9-1958-323a-cd3e" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="ad3a-4efc-2b4e-31fb" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hound (medium)" hidden="false" id="9f58-199f-9be9-0e2d">
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="30"/>
+      </costs>
+      <profiles>
+        <profile name="Hound (medium)" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="888c-6d43-d9a9-9791">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d8</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d4</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d6</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d6</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Strong (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="4ad1-a6d4-a7d7-3e9c" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="ea18-fdb3-7501-fa8a" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="3531-d2a7-6fec-ee54"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="dd97-9bbb-7744-5eaa" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e4ef-18aa-0b27-cb9f"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="9cfc-e467-68c9-2375" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="5e0d-d572-6d96-69c5" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Marmot" hidden="false" id="0a0c-2ba0-7655-2e36">
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="23"/>
+      </costs>
+      <profiles>
+        <profile name="Marmot (rare)" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="6338-4e60-b564-be18">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d8</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d4</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d4</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d6</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d6</characteristic>
+            <characteristic typeId="1446-6436-7bb6-270e" name="Skills"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="8d8a-a8bf-7029-d3ff" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ae8a-0b22-988d-1066" includeChildSelections="true"/>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="ac55-fd43-0747-7dac"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="d34a-5f0b-b2d3-d8ed" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="8849-3f21-4e26-0ef4" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="807c-8a12-305e-fb9f" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e7f8-d986-24f9-d62e"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="d205-cd52-f9b7-c624" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="c3dd-906e-625c-c5f7" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Green Lizard" hidden="false" id="6fa8-45d3-ab7e-488d">
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="28"/>
+      </costs>
+      <profiles>
+        <profile name="Green Lizard (rare)" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="87eb-b1ca-cf61-d189">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d6</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d4</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d8</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d6</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d6</characteristic>
+            <characteristic typeId="1446-6436-7bb6-270e" name="Skills"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="59f1-4c1c-a1e0-97bd" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="77cd-48d3-63fb-d72b" includeChildSelections="true"/>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="3198-0fa9-cb28-631f"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="7914-e619-00cf-dd02" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="754a-1701-9083-b3b7" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="7199-bf26-1617-89d1" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d6ed-774f-8de9-5f2f"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="d0f8-0fbf-b95d-f0ef" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="f5b8-cafa-6334-a2b2" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Siamese Cat" hidden="false" id="acf4-41fb-38e4-9075">
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="35"/>
+      </costs>
+      <profiles>
+        <profile name="Siamese Cat" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="ee94-3b7c-3b9e-55ea">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d8</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d8</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d8</characteristic>
+            <characteristic typeId="1446-6436-7bb6-270e" name="Skills"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="bb03-fd91-a34b-73ad" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ea9-aecd-f272-33a8" includeChildSelections="true"/>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="2f2c-69c4-5bab-e4aa"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="5a48-66c6-6491-cfe9" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="7086-b1ce-3834-6281" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="fe88-391f-035b-abfd" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="951d-167e-e9a8-1210"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="2f7a-892e-f43f-2ab7" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="7030-4a5e-cc25-f513" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Tortoise" hidden="false" id="44c1-fc0d-bfe7-d684">
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="36"/>
+      </costs>
+      <profiles>
+        <profile name="Tortoise (rare)" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="663d-d377-3587-7b46">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d4</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d8</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d6</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d6</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Tough (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="4c0a-212a-a4fb-8e6f" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8284-840b-0ec4-7bff" includeChildSelections="true"/>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="d0bd-4974-e885-6fba"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="0b77-a6cd-d933-8544" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="05d5-bf92-efbe-a179" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="ee31-c9d6-dd57-9ad6" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c8f-e11c-c0f0-c675"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="2cdd-4b48-65b6-4fd5" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="f896-21aa-e049-5cb8" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Platypus" hidden="false" id="6d25-81ed-a096-afaa">
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="25"/>
+      </costs>
+      <profiles>
+        <profile name="Platypus" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="f66f-daf4-f9e2-e7ba">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d6</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d4</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d6</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d6</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Swim</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="aa93-3f2a-241b-b45b" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="14ae-0481-3e77-ea3f" includeChildSelections="true"/>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="965a-0c76-e89b-51e3"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="913c-5f21-0fcd-c255" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="7a5d-6c42-42bb-8280" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="5376-ae8c-f637-f931" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c150-acd6-d6bf-939e"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="994f-6cc1-0ab0-a2b8" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="05bb-8aba-9dbd-9bf7" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hare" hidden="false" id="6c64-1d2c-04d4-7cf6">
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="c443-08d4-6f7e-6fe7"/>
+      </constraints>
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="53"/>
+        <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Hare" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="9aa9-f12b-5cf8-bc9e">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d8</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d10</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d8</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d8</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d8</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Leap, Strong (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="5822-4cec-2d08-dba3" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="0a71-17d8-e8fe-67d5" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="9411-7f08-7c3c-314b" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b68a-9266-feb1-45a9"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="7fda-3034-8fa4-fe24" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="1ab5-eab2-9199-b4ff" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Wildcat" hidden="false" id="bec1-a5f7-b445-b1d6">
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="81ac-94ec-2f8f-277c"/>
+      </constraints>
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="62"/>
+        <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Wildcat" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="400b-2bc0-46b8-61fb">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d8</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d10</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d4</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d8</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d8</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d8</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d8</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d8</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Strong (2), Tough (1), Fearsome, Natural Hunter</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="7b07-8572-73bf-fa09" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="ffa0-b90c-02ba-1ea3" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="8ea9-f450-3f69-f58d" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d5ab-3f79-a4b7-64f8"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="1ec1-829f-061a-de37" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="86d6-422d-ed07-508d" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Brown Rat" hidden="false" id="f71e-100d-9e5c-c6b2">
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="fa72-ea07-77cc-32d1"/>
+      </constraints>
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="42"/>
+        <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Brown Rat" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="03df-183a-eaac-8bba">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d8</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d8</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d6</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d8</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Tough (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="2fa1-6700-d63a-d853" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="22fd-3d76-e3ba-a26c" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="be2a-aeb4-78f3-920a" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb07-cbda-89a1-3819"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="7313-e971-c888-f558" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="b36b-ac12-d02f-9133" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Fox" hidden="false" id="7953-9b3f-82ab-1a69">
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="9d31-95d2-6891-77ae"/>
+      </constraints>
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="43"/>
+        <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Fox" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="0aac-a9da-cc9b-fb31">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d8</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d8</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d8</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d6</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d8</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Strong (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="a96d-a0a9-82f3-8e75" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="59ac-da34-1ecd-e0a4" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="13dc-11b5-c18d-66fb" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d874-27c8-2061-5a77"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="e8d7-644a-64a9-f251" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="a839-e632-6806-8fb4" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Otter" hidden="false" id="556e-139d-e157-bd11">
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="1106-aaca-8789-9e02"/>
+      </constraints>
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="51"/>
+        <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Otter" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="bcac-cf9c-6e07-8ebc">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d8</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d8</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d8</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d8</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d8</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d8</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Strong (1), Swim</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="19e5-fb5e-7b3c-30d5" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="987c-171f-b20c-f4a4" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="06a3-c4fd-6c7a-f87d" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="20e0-6773-d65b-1fc2"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="3334-043d-4814-8191" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="57fb-3de3-e1e8-b02b" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Bird (large)" hidden="false" id="5c4f-e971-c5dd-6c6c">
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="7b51-a8dc-2b00-26ba"/>
+      </constraints>
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="35"/>
+        <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Bird (large)" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="f1d1-70ae-7422-a708">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d6</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d8</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d4</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d8</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d6</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Flight</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="1d9d-ada9-7fba-5887" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="bb49-cd1f-b092-d178" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="fe2f-9320-dd93-68f5" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="537b-7bad-a7b3-c7c1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="0185-a2d2-2c1c-1278" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="e267-9384-d239-0330" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Raptor (large)" hidden="false" id="7068-ba9f-45d2-a2a0">
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="4119-c13c-4ba6-e502"/>
+      </constraints>
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="50"/>
+        <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Raptor (large)" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="3dc5-771c-f160-fc16">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d8</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d4</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d8</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d4</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d8</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d8</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d8</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Flight, Unarmed Fighter, Strong (2), Natural Hunter</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="604b-87d9-58af-1aca" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="d0e1-02e4-19c7-8b37" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="d336-affe-2a3d-f0bf" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="841a-9a1d-3200-0176"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="ed28-5768-9480-86db" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="46b8-e898-e5bf-a06d" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Hound (large)" hidden="false" id="bdda-d660-9b3b-47d4">
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="7612-1002-bb3d-6adf"/>
+      </constraints>
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="45"/>
+        <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Hound (large)" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="858b-209c-9b1b-946d">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d8</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d4</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d6</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d8</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Strong (2), Tough (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="885d-e1f3-00e8-2290" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="4f6c-4e78-62e0-c36d" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="c3e7-f622-1430-ffc6" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d1d0-3fb1-8176-6bcb"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="eab5-1d61-986c-5951" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="6565-9df5-7f23-bd01" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Racoon" hidden="false" id="408d-4b69-394d-1a86">
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="a525-7426-1b6e-8481"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2aa-b9f2-c002-6a39"/>
+      </constraints>
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="40"/>
+        <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Racoon" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="ad60-a76e-2606-ee56">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d8</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d4</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d8</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d8</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Strong (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="23eb-adda-e442-7152" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="324a-d0ad-7cd1-11ac" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="6567-5302-db8a-ab1a" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b932-8b4e-d7f6-3cb6"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="5a09-751e-8b80-4f3f" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="7092-a2cb-67b2-8fb2" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Armadillo" hidden="false" id="0c66-d89b-4ddd-0360">
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="ca1e-2aa5-825c-ebb4"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ace-b2c3-c075-ab3d"/>
+      </constraints>
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="62"/>
+        <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Armadillo" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="c230-07f2-0d6c-d0e1">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d8</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d8</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d8</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d8</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d8</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Strong (1), Tough (3), Leap</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="9937-1acd-10cf-583e" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="9286-3404-1eff-68eb" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="527a-cde7-1e89-a8fe" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="36d3-1b5e-428f-e5ba"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="6a7b-b13b-9674-62c2" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="3da5-7a3a-6103-f8f1" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Fennec Fox" hidden="false" id="f3ce-2b37-9f1e-8b07">
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="43b8-86b8-c57e-4032"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e29-5a80-fb8d-791b"/>
+      </constraints>
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="35"/>
+        <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Fennec Fox" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="d03b-96e3-ccaf-caca">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d8</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d8</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d8</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d6</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d6</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Bloodhound</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="96a7-c747-546d-f33a" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="b829-4cfc-077b-23ee" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="0e31-bb22-55e3-384d" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3689-d4fe-3246-0550"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="dbf7-9f56-ecf5-a920" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="c1b4-b7ee-b465-1780" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Badger" hidden="false" id="66a4-d461-0c77-866d">
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="65"/>
+        <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="d1f7-09cd-dac9-9421" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="ba66-137c-5e8a-bbee" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Badger" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="87b7-2d91-7ab8-33c4">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d8</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d8</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d4</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d8</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d10</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Strong (3), Tough (2), Fearsome</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="7606-4cde-a3d4-a027"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="6521-382e-6b9f-9523" id="9922-a247-5b4e-e1a9" primary="false" name="Massive Beasts (50mm)"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="fbe9-3a54-e1ab-175f" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="92e2-2eb0-2843-ce6d"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="c2e6-0d80-86d8-a5e3" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="6da4-4189-1742-6761" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Beaver" hidden="false" id="98e7-fa1a-ad4d-1c30">
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="60"/>
+        <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="d6e5-1ea1-6c69-12a3" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="7a02-e72e-5a58-c20c" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Beaver" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="ee1d-7120-a3c0-5d02">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d8</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d4</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d4</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d10</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d8</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Strong (2), Tought (3), Swim</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="00e8-a41a-ffa4-f2e8"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink targetId="6521-382e-6b9f-9523" id="a5b3-704e-843f-ec64" primary="false" name="Massive Beasts (50mm)"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="b7f4-b3e0-1a28-1dcd" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="096a-855b-f0e3-b71a"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="559c-0f6a-6b4a-f516" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="db46-210d-9446-fcbc" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Bird (massive)" hidden="false" id="8a18-3594-d92a-3bb8">
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="40"/>
+        <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="12cb-ca4d-036e-c016" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="e060-78e3-e9d4-a07f" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="d7dc-d80f-8c39-cb5f"/>
+      </constraints>
+      <profiles>
+        <profile name="Bird (massive)" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="d65e-81b4-b2f8-2aa9">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d8</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d6</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d4</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d8</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d8</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Flight</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="6521-382e-6b9f-9523" id="8373-1f66-1da3-d920" primary="false" name="Massive Beasts (50mm)"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="5b7a-7e07-6fab-bd5c" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4bae-fa46-64f4-8249"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="4b03-83db-f6dd-5971" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="4655-ef2d-718b-dfe0" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Raptor (massive)" hidden="false" id="f427-ff50-d990-b0cd">
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="64"/>
+        <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="da5f-c08d-a6dd-5e7f" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="735d-bca1-e143-111f" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="a831-8d38-f712-2886"/>
+      </constraints>
+      <profiles>
+        <profile name="Raptor (massive)" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="fa62-730d-2b1e-5262">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d6</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d10</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d4</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d8</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d8</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Flight, Unarmed Fighter, Strong (3), Natural Hunter</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="6521-382e-6b9f-9523" id="76ac-e42e-bf12-2972" primary="false" name="Massive Beasts (50mm)"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="fff1-cbff-d87a-90b8" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b8a-179f-d889-d8b7"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="24f9-1577-14b0-1dbc" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="5069-cb02-615a-e888" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hound (massive)" hidden="false" id="196d-6306-ab22-8f0d">
+      <costs>
+        <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="65"/>
+        <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Equipment" hidden="false" id="95ec-1210-fb94-9202" type="selectionEntryGroup" targetId="ed92-be87-4800-6d11"/>
+        <entryLink import="true" name="Magic" hidden="false" id="a1c0-fdeb-59fe-7765" type="selectionEntryGroup" targetId="c514-eeee-cc92-ce93"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="6" field="c8de-adc4-8aae-4b3c" scope="self" shared="true" id="ebcb-acd6-22c5-6164"/>
+      </constraints>
+      <profiles>
+        <profile name="Hound (massive)" typeId="accf-eeea-a7c5-3328" typeName="Character" hidden="false" id="1d75-0bf4-938e-df7f">
+          <characteristics>
+            <characteristic name="M" typeId="4303-d926-374c-054a">d8</characteristic>
+            <characteristic name="S" typeId="4e2b-5e6b-e732-9aeb">d10</characteristic>
+            <characteristic name="B" typeId="9c3b-fac3-a5d5-b268">d6</characteristic>
+            <characteristic name="R" typeId="a046-4981-5a10-c503">d4</characteristic>
+            <characteristic name="N" typeId="07e5-3553-d1b6-0041">d6</characteristic>
+            <characteristic name="C" typeId="6c3c-7be1-e48d-0cd3">d6</characteristic>
+            <characteristic name="A" typeId="fa68-c948-da16-8f67">d6</characteristic>
+            <characteristic name="F" typeId="2190-356b-2ec5-428a">d8</characteristic>
+            <characteristic name="P" typeId="a40d-6337-aa63-9f11">d8</characteristic>
+            <characteristic name="Skills" typeId="1446-6436-7bb6-270e">Strong (3), Tough (2), Natural Hunter</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="6521-382e-6b9f-9523" id="b2f1-a6b5-e75c-b985" primary="false" name="Massive Beasts (50mm)"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leadership" id="7306-22bf-3537-bc0c" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="442c-25ba-0759-fa17"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Leader" hidden="false" id="d551-e25c-7bbf-b51d" type="selectionEntry" targetId="d596-6943-a60b-faed"/>
+            <entryLink import="true" name="Second" hidden="false" id="5415-b8a9-7174-c408" type="selectionEntry" targetId="5928-30cb-f925-4322"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Leader" hidden="false" id="d596-6943-a60b-faed">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="3ed9-4734-4521-2429" includeChildSelections="true"/>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="066e-6c07-ebb6-d618" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Leader" typeId="64da-13ff-554b-eba5" typeName="Modifier" hidden="false" id="4538-9caf-9279-c40e">
+          <characteristics>
+            <characteristic name="Modifier" typeId="859d-b54c-2f57-00b9">Choose one skill, increase one stat die</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Second" hidden="false" id="5928-30cb-f925-4322">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="38f5-6c4a-1ebd-7f4c" includeChildSelections="true"/>
+        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="6394-7ff3-2a95-82a1" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Second" typeId="64da-13ff-554b-eba5" typeName="Modifier" hidden="false" id="1bd2-fd6e-114c-370e">
+          <characteristics>
+            <characteristic name="Modifier" typeId="859d-b54c-2f57-00b9">Choose one skill</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Mouse" hidden="false" id="3da7-7e4c-a782-7db5" type="selectionEntry" targetId="2dbc-76b1-549e-5d1e">
+      <categoryLinks>
+        <categoryLink targetId="8ae7-1020-97e3-0ba0" id="d2b1-1bfa-54f4-dcb7" primary="true" name="Small Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Shrew" hidden="false" id="d4c6-26f9-de20-91bb" type="selectionEntry" targetId="b42e-a86b-a88e-3aa5">
+      <categoryLinks>
+        <categoryLink targetId="8ae7-1020-97e3-0ba0" id="0058-ec7a-dee4-2378" primary="true" name="Small Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Bird (Small)" hidden="false" id="9c8e-04b6-730a-2064" type="selectionEntry" targetId="9fe0-86b3-181f-7b40">
+      <categoryLinks>
+        <categoryLink targetId="8ae7-1020-97e3-0ba0" id="93df-6e23-9b5a-125c" primary="true" name="Small Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Bat" hidden="false" id="616b-501e-07bd-b9d2" type="selectionEntry" targetId="5f5e-9ea2-4d4a-940f">
+      <categoryLinks>
+        <categoryLink targetId="8ae7-1020-97e3-0ba0" id="8aaa-ea79-3c09-6fbb" primary="true" name="Small Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hedgehog" hidden="false" id="3bc5-f4ee-cbc8-3834" type="selectionEntry" targetId="7646-6798-1a80-68ba">
+      <categoryLinks>
+        <categoryLink targetId="1110-5862-ca4b-24b5" id="9f93-c620-74b9-ef67" primary="true" name="Medium Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Squirrel" hidden="false" id="703c-7810-161e-878e" type="selectionEntry" targetId="e461-02bb-dfa8-8e52">
+      <categoryLinks>
+        <categoryLink targetId="1110-5862-ca4b-24b5" id="6bfd-4342-fa87-d110" primary="true" name="Medium Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mole" hidden="false" id="5875-724f-c9cb-d70d" type="selectionEntry" targetId="d522-6d20-2941-c481">
+      <categoryLinks>
+        <categoryLink targetId="1110-5862-ca4b-24b5" id="60ab-ca74-33fa-f945" primary="true" name="Medium Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Weasel/Stoat" hidden="false" id="b006-9660-5fa0-1120" type="selectionEntry" targetId="a2df-de50-0330-9d6e">
+      <categoryLinks>
+        <categoryLink targetId="1110-5862-ca4b-24b5" id="75c3-5c84-c57a-76f4" primary="true" name="Medium Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Cat" hidden="false" id="782c-a838-5e1f-4a4b" type="selectionEntry" targetId="7c6c-7af8-ae75-cd8f">
+      <categoryLinks>
+        <categoryLink targetId="1110-5862-ca4b-24b5" id="a301-77a7-8523-6eef" primary="true" name="Medium Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Black Rat" hidden="false" id="d102-fddb-3020-2c78" type="selectionEntry" targetId="626a-22f6-e8c7-918e">
+      <categoryLinks>
+        <categoryLink targetId="1110-5862-ca4b-24b5" id="4c87-b390-7504-0882" primary="true" name="Medium Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Ferret" hidden="false" id="3c0c-a5d9-3c1f-2f4e" type="selectionEntry" targetId="7250-b9b4-666d-a1e7">
+      <categoryLinks>
+        <categoryLink targetId="1110-5862-ca4b-24b5" id="da13-11e9-ff99-8359" primary="true" name="Medium Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Rabbit" hidden="false" id="7bbf-43be-437b-040c" type="selectionEntry" targetId="ab25-ac4b-bf83-ae1e">
+      <categoryLinks>
+        <categoryLink targetId="1110-5862-ca4b-24b5" id="aeda-a27b-bd10-caee" primary="true" name="Medium Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Toad" hidden="false" id="c99a-ee0f-14ce-16ac" type="selectionEntry" targetId="a70d-42d8-db60-6078">
+      <categoryLinks>
+        <categoryLink targetId="1110-5862-ca4b-24b5" id="6cc4-2905-2099-7722" primary="true" name="Medium Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Frog" hidden="false" id="8d86-e5e1-cd83-d8a5" type="selectionEntry" targetId="34e0-3e55-f91d-e99f">
+      <categoryLinks>
+        <categoryLink targetId="1110-5862-ca4b-24b5" id="a609-2b17-5e1e-bdc5" primary="true" name="Medium Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Adder" hidden="false" id="fce6-92ae-aac7-9088" type="selectionEntry" targetId="89f2-b856-1b5b-aa09">
+      <categoryLinks>
+        <categoryLink targetId="1110-5862-ca4b-24b5" id="156d-cc30-f06c-d2e8" primary="true" name="Medium Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Bird (medium)" hidden="false" id="941c-45e6-b2f6-ac34" type="selectionEntry" targetId="d974-4f0a-55be-8eba">
+      <categoryLinks>
+        <categoryLink targetId="1110-5862-ca4b-24b5" id="cc2a-2f20-1d85-f5d5" primary="true" name="Medium Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Raptor (medium)" hidden="false" id="592d-79a7-8ffc-54ed" type="selectionEntry" targetId="a05d-d7df-95a4-24ba">
+      <categoryLinks>
+        <categoryLink targetId="1110-5862-ca4b-24b5" id="1522-5b9e-e78f-5c22" primary="true" name="Medium Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hound (medium)" hidden="false" id="06eb-2440-03ee-4293" type="selectionEntry" targetId="9f58-199f-9be9-0e2d">
+      <categoryLinks>
+        <categoryLink targetId="1110-5862-ca4b-24b5" id="ecb8-7a13-22cf-37a2" primary="true" name="Medium Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Marmot" hidden="false" id="84ae-dc0c-e68b-07cb" type="selectionEntry" targetId="0a0c-2ba0-7655-2e36">
+      <categoryLinks>
+        <categoryLink targetId="1110-5862-ca4b-24b5" id="d3fe-4667-7411-a8a4" primary="true" name="Medium Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Green Lizard" hidden="false" id="f6a2-e0bd-33eb-6e14" type="selectionEntry" targetId="6fa8-45d3-ab7e-488d">
+      <categoryLinks>
+        <categoryLink targetId="1110-5862-ca4b-24b5" id="0df7-fead-b315-1194" primary="true" name="Medium Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Siamese Cat" hidden="false" id="e6dd-fcb9-cc0e-8ecd" type="selectionEntry" targetId="acf4-41fb-38e4-9075">
+      <categoryLinks>
+        <categoryLink targetId="1110-5862-ca4b-24b5" id="2e86-e9b1-7d88-476d" primary="true" name="Medium Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Tortoise" hidden="false" id="ba76-24c1-bb7c-05de" type="selectionEntry" targetId="44c1-fc0d-bfe7-d684">
+      <categoryLinks>
+        <categoryLink targetId="1110-5862-ca4b-24b5" id="b28b-4093-ea56-c2eb" primary="true" name="Medium Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Platypus" hidden="false" id="d35d-8a39-d9fa-f12e" type="selectionEntry" targetId="6d25-81ed-a096-afaa">
+      <categoryLinks>
+        <categoryLink targetId="1110-5862-ca4b-24b5" id="fcee-4873-fad0-b605" primary="true" name="Medium Beasts (30mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hare" hidden="false" id="694d-274a-63c9-6529" type="selectionEntry" targetId="6c64-1d2c-04d4-7cf6">
+      <categoryLinks>
+        <categoryLink targetId="314b-61ac-c979-5120" id="2062-8ea1-8ffa-fb4f" primary="true" name="Large Beasts (40mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wildcat" hidden="false" id="4bca-32b9-224a-7639" type="selectionEntry" targetId="bec1-a5f7-b445-b1d6">
+      <categoryLinks>
+        <categoryLink targetId="314b-61ac-c979-5120" id="da63-3497-d8c2-9ad3" primary="true" name="Large Beasts (40mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Brown Rat" hidden="false" id="18be-22d2-ad3e-f65b" type="selectionEntry" targetId="f71e-100d-9e5c-c6b2">
+      <categoryLinks>
+        <categoryLink targetId="314b-61ac-c979-5120" id="ec5d-f39a-b35f-c0ef" primary="true" name="Large Beasts (40mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Fox" hidden="false" id="96e7-566a-53c5-9a35" type="selectionEntry" targetId="7953-9b3f-82ab-1a69">
+      <categoryLinks>
+        <categoryLink targetId="314b-61ac-c979-5120" id="1df3-4110-8a41-2c7f" primary="true" name="Large Beasts (40mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Otter" hidden="false" id="a57f-4253-9f5d-76b0" type="selectionEntry" targetId="556e-139d-e157-bd11">
+      <categoryLinks>
+        <categoryLink targetId="314b-61ac-c979-5120" id="64be-4fd8-f780-5888" primary="true" name="Large Beasts (40mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Bird (large)" hidden="false" id="5b50-e77a-6e78-3eb4" type="selectionEntry" targetId="5c4f-e971-c5dd-6c6c">
+      <categoryLinks>
+        <categoryLink targetId="314b-61ac-c979-5120" id="7256-423f-6e22-dec7" primary="true" name="Large Beasts (40mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Raptor (large)" hidden="false" id="b721-661b-a768-adbf" type="selectionEntry" targetId="7068-ba9f-45d2-a2a0">
+      <categoryLinks>
+        <categoryLink targetId="314b-61ac-c979-5120" id="5fd4-4a34-f2be-631c" primary="true" name="Large Beasts (40mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hound (large)" hidden="false" id="a9a5-6855-208f-8c57" type="selectionEntry" targetId="bdda-d660-9b3b-47d4">
+      <categoryLinks>
+        <categoryLink targetId="314b-61ac-c979-5120" id="b5a1-e172-4bf5-32b4" primary="true" name="Large Beasts (40mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Racoon" hidden="false" id="b331-1072-6d44-c4bb" type="selectionEntry" targetId="408d-4b69-394d-1a86">
+      <categoryLinks>
+        <categoryLink targetId="314b-61ac-c979-5120" id="1761-c364-590b-6e22" primary="true" name="Large Beasts (40mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Armadillo" hidden="false" id="4f6c-29a2-c81c-36f2" type="selectionEntry" targetId="0c66-d89b-4ddd-0360">
+      <categoryLinks>
+        <categoryLink targetId="314b-61ac-c979-5120" id="0fc8-912d-520d-2b03" primary="true" name="Large Beasts (40mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Fennec Fox" hidden="false" id="4e1c-f531-24f5-1c6b" type="selectionEntry" targetId="f3ce-2b37-9f1e-8b07">
+      <categoryLinks>
+        <categoryLink targetId="314b-61ac-c979-5120" id="0ce2-5279-1a68-7217" primary="true" name="Large Beasts (40mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Badger" hidden="false" id="84a0-2c6d-5ba3-a01d" type="selectionEntry" targetId="66a4-d461-0c77-866d">
+      <categoryLinks>
+        <categoryLink targetId="6521-382e-6b9f-9523" id="779f-044a-82c5-93bc" primary="true" name="Massive Beasts (50mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Beaver" hidden="false" id="a860-06f0-0bc9-7217" type="selectionEntry" targetId="98e7-fa1a-ad4d-1c30">
+      <categoryLinks>
+        <categoryLink targetId="6521-382e-6b9f-9523" id="c764-c598-b012-54c5" primary="true" name="Massive Beasts (50mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Bird (massive)" hidden="false" id="1ebf-4d5f-167f-f57c" type="selectionEntry" targetId="8a18-3594-d92a-3bb8">
+      <categoryLinks>
+        <categoryLink targetId="6521-382e-6b9f-9523" id="5c1f-5e98-2630-db4f" primary="true" name="Massive Beasts (50mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Raptor (massive)" hidden="false" id="adab-8b0a-9b6a-9e81" type="selectionEntry" targetId="f427-ff50-d990-b0cd">
+      <categoryLinks>
+        <categoryLink targetId="6521-382e-6b9f-9523" id="c65a-f5c9-a45c-f014" primary="true" name="Massive Beasts (50mm)"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hound (massive)" hidden="false" id="adc5-15b3-6bc6-4f5d" type="selectionEntry" targetId="196d-6306-ab22-8f0d">
+      <categoryLinks>
+        <categoryLink targetId="6521-382e-6b9f-9523" id="2f4a-0356-24e6-f37d" primary="true" name="Massive Beasts (50mm)"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>
