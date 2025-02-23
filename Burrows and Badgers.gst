@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-5421-845f-7905-367c" name="Burrows and Badgers" battleScribeVersion="2.03" revision="1" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" publicationId="d79c-2e07-9da0-4842">
+<gameSystem id="sys-5421-845f-7905-367c" name="Burrows and Badgers" battleScribeVersion="2.03" revision="2" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" publicationId="d79c-2e07-9da0-4842">
   <categoryEntries>
     <categoryEntry name="Small Beasts (30mm)" id="8ae7-1020-97e3-0ba0"/>
     <categoryEntry name="Medium Beasts (30mm)" id="1110-5862-ca4b-24b5" hidden="false"/>
@@ -110,7 +110,7 @@
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Polearm" hidden="false" id="b76a-3ebd-e7da-f9d1" sortIndex="3">
               <costs>
-                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="15"/>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="14"/>
                 <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="1"/>
                 <cost name="Weapons" typeId="207f-de1d-95a6-d8f0" value="1"/>
               </costs>
@@ -998,6 +998,10 @@ Bone Meal - Caster receives +1 to casting</characteristic>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="26f4-2a60-2bbe-1734" includeChildSelections="false"/>
               </constraints>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Control" hidden="false" id="c834-7b9e-3fe3-1961">
               <profiles>
@@ -1013,6 +1017,10 @@ Bone Meal - Caster receives +1 to casting</characteristic>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c50a-0f1d-653d-36a7" includeChildSelections="false"/>
               </constraints>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Paralyse" hidden="false" id="70f4-e1f9-8026-0bc1">
               <profiles>
@@ -1028,6 +1036,10 @@ Bone Meal - Caster receives +1 to casting</characteristic>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="72d6-410b-1af7-746b" includeChildSelections="false"/>
               </constraints>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="The Horror" hidden="false" id="3753-337f-679d-8318">
               <profiles>
@@ -1043,6 +1055,10 @@ Bone Meal - Caster receives +1 to casting</characteristic>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="dc29-0c13-b9a5-a9e2" includeChildSelections="false"/>
               </constraints>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Rage" hidden="false" id="cc63-2d87-1a29-f706">
               <profiles>
@@ -1058,6 +1074,10 @@ Bone Meal - Caster receives +1 to casting</characteristic>
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="567d-9b99-0c24-8bd2" includeChildSelections="false"/>
               </constraints>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Life Eater" hidden="false" id="ddf4-5ee2-7eef-96b0">
               <profiles>
@@ -1074,6 +1094,10 @@ Belladonna - Wounds that the caster would heal may be healed by another characte
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="80e2-36f8-79e8-615f" includeChildSelections="false"/>
               </constraints>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1093,6 +1117,10 @@ Belladonna - Wounds that the caster would heal may be healed by another characte
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Bear&apos;s Strength" hidden="false" id="b499-999d-7f2a-9f7b">
               <constraints>
@@ -1108,6 +1136,10 @@ Belladonna - Wounds that the caster would heal may be healed by another characte
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Oakflesh" hidden="false" id="77dd-ad46-97bd-b585">
               <constraints>
@@ -1123,6 +1155,10 @@ Belladonna - Wounds that the caster would heal may be healed by another characte
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Earth Shaker" hidden="false" id="76ec-b3d6-de13-48db">
               <constraints>
@@ -1138,6 +1174,10 @@ Belladonna - Wounds that the caster would heal may be healed by another characte
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Tangleweed" hidden="false" id="1c88-b36a-3472-bdea">
               <constraints>
@@ -1153,6 +1193,10 @@ Belladonna - Wounds that the caster would heal may be healed by another characte
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Creeping Things" hidden="false" id="a2d8-0c64-572b-50fb">
               <constraints>
@@ -1169,6 +1213,10 @@ Scarab Shells - target suffers additional wounds equal to each Scarab Shell used
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1188,6 +1236,10 @@ Scarab Shells - target suffers additional wounds equal to each Scarab Shell used
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a07-162a-c0e6-0300" includeChildSelections="false"/>
               </constraints>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Van Rubal&apos;s Acceleration" hidden="false" id="f791-f3e8-ba59-9aa8">
               <constraints>
@@ -1203,6 +1255,10 @@ Scarab Shells - target suffers additional wounds equal to each Scarab Shell used
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Morglum&apos;s Fiery Blast" hidden="false" id="2856-0add-cd27-a2b1">
               <constraints>
@@ -1219,6 +1275,10 @@ Brimstone - Spell additionally effects models within 2&quot; of target</characte
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Burramorr&apos;s Distant Fracturing" hidden="false" id="600f-c00a-1072-193a">
               <constraints>
@@ -1234,6 +1294,10 @@ Brimstone - Spell additionally effects models within 2&quot; of target</characte
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Sangram&apos;s Portable Protector" hidden="false" id="6917-e22c-f9eb-3668">
               <constraints>
@@ -1249,6 +1313,10 @@ Brimstone - Spell additionally effects models within 2&quot; of target</characte
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Mangarr&apos;s Mystical Blade" hidden="false" id="ab05-edd6-93cb-cebf">
               <constraints>
@@ -1264,6 +1332,10 @@ Brimstone - Spell additionally effects models within 2&quot; of target</characte
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -1283,6 +1355,10 @@ Brimstone - Spell additionally effects models within 2&quot; of target</characte
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Transpose" hidden="false" id="1cfb-963f-550c-2723">
               <constraints>
@@ -1298,6 +1374,10 @@ Brimstone - Spell additionally effects models within 2&quot; of target</characte
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Channelling" hidden="false" id="0f1b-05da-3f0d-9ba1">
               <constraints>
@@ -1314,6 +1394,10 @@ Wounds suffered between themselves</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Dampening" hidden="false" id="6724-9ccb-bc7a-d034">
               <constraints>
@@ -1330,6 +1414,10 @@ d4 Turns, or until the Caster is Wounded</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Radiance" hidden="false" id="e53f-b71c-7923-7576">
               <constraints>
@@ -1345,6 +1433,10 @@ d4 Turns, or until the Caster is Wounded</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Revelation" hidden="false" id="08cc-0f2b-3857-e95e">
               <constraints>
@@ -1360,6 +1452,10 @@ d4 Turns, or until the Caster is Wounded</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="P" typeId="dcf3-a503-8ad0-b2d5" value="5"/>
+                <cost name="Equipment" typeId="c8de-adc4-8aae-4b3c" value="0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
